@@ -1,0 +1,51 @@
+.row{
+	background-color: lavender;
+}
+
+.col1{
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: silver;
+}
+.col2{
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: red;
+}
+.col3{
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: green;
+}
+.col4{
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: blue;
+}
+.col5{
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: grey;
+}
+.col6{
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: darkgreen;
+}
+.col7{
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: orange;
+}
+.colinside{
+	min-height: 100px;
+	text-align: center;
+	background-color: yellow;
+}

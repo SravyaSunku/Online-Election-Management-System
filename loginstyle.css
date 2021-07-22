@@ -1,0 +1,154 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+/* body background css */
+body{
+	padding: 0;
+	margin: 0;
+	background-image: linear-gradient(to right,#99edc3,#fff9c4);
+
+}
+/*login form css*/
+.form{
+	font-family: "Roboto", sans-serif;
+	position: relative;
+	z-index: 1;
+	background: #b2d3c2;
+	opacity: 99%;
+	max-width: 260px;
+	margin: 90px auto 90px;
+	padding: 10px 45px 30px 45px;
+	text-align: : center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 10px;
+}
+.form p{
+	font-size: 15px;
+	padding: 1px;
+	text-align: center;
+}
+.form input{
+	outline: 0;
+	border-radius: 10px;
+	background: #f2f2f2;
+	width: 90%;
+	border:0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.form input:hover{
+	background-color: #CFFAD3;
+	transition: all 1s ease 0s;
+}
+.form input:focus{
+	background-color: #CFFAD3;
+	transform: all 1s ease 0s;
+}
+.form button{
+	text-transform:  uppercase;
+	outline: 0;
+	border-radius: 10px;
+	background-color: #CFFAD3;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+	color: grey;
+}
+.form button:hover, .form button:active, .form button:focus{
+	background-color: #A4FFAC;
+	transition: all 1s ease 0s;
+}
+.form .message{
+	margin: 15px 0 0;
+	color: grey;
+	font-size: 12px;
+}
+.form .message a{
+	color: #459A4C;
+	text-decoration: none;
+}
+/*up navigation bar*/
+#nav1 ul{
+	padding: 14px;
+	list-style-type: none;
+	text-align: center;
+	background-color: #b2d3c2;
+	margin: 10px;
+	border-radius: 5px;
+}
+#nav1 ul li{
+	display: inline;
+	color:white;
+	margin: 15px;
+}
+#nav1 ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #5D6D7E;
+	background: #CFFAD3;
+	border-radius: 7px;
+}
+#nav1 ul li a:hover{
+	background: #A4FFAC;
+	transition: all 1s ease 0s;
+}
+#footer{
+	background-color: #b2d3c2;
+	margin: 10px;
+	height: 45px;
+	border-radius: 7px;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	font-size:90%;
+	color: white;
+}
+#footer ul{
+	padding: 5px;
+	background-color: #b2d3c2;
+	list-style-type: none;
+	text-align: center;
+	margin: 5px;
+	border-radius: 5px;
+}
+#footer ul li{
+	display: inline;
+	color:white;
+	margin: 15px;
+}
+#footer ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #5D6D7E;
+	background: #CFFAD3;
+	border-radius: 7px;
+}
+#footer ul li a:hover{
+	background: #A4FFAC;
+	transition: all 1s ease 0s;
+}
+/*
+body {  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;}
+.votingimage {  background-image: url("../bckg.jpg");
+  background-color: #cccccc;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  opacity: 0.7;}
+.maintext{	  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;}
+h1{	color: #2a2829;
+	opacity: 1.0;}
+*/
